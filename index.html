@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        fieldset {
+            border: 2px solid #000;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background-attachment: fixed;
+            background-color: azure;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            margin: 5px;
+            color: white;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+        button:active {
+            background-color: rgb(249, 99, 99);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>AI</legend>
+        <button id="b">Vidvoz</button>
+        <button id="g"> Github</button>
+        <br>
+        <button id="m"> Median.co</button>
+        <br>
+        <button id="p">Poppop.ai/texto e Fala</button>
+        <br>
+        <button id="e"> Email</button>
+        <button id="i">Pinterest</button>
+        <br>
+        <button id="t"> X </button>
+        <button id="y">Youtube</button>
+        <button id="l">Google</button>
+
+        <script>
+            const bt=()=>{
+                window.location.href="https://aiapp-pt.vidnoz.com/video/index.html"
+            }
+            b.addEventListener("click",bt);
+
+            const gt=()=>{
+                window.location.href="https://github.com"
+            }
+            g.addEventListener("click",gt);
+
+            const tt=()=>{
+                window.location.href="https://x.com/"
+            }
+            t.addEventListener("click",tt);
+
+            const mt=()=>{
+                window.location.href="https://median.co/"
+            }
+            m.addEventListener("click",mt);
+
+            const et=()=>{
+                window.location.href="https://mail.google.com/"
+            }
+            e.addEventListener("click",et);
+
+            const pt=()=>{
+                window.location.href="https://poppop.ai/ai-text-to-speech"
+            }
+            p.addEventListener("click",pt);
+
+            const it=()=>{
+                window.location.href="https://www.pinterest.com/"
+            }
+            i.addEventListener("click",it);
+
+            const yt=()=>{
+                window.location.href="https://www.youtube.com/"
+            }
+            y.addEventListener("click",yt);
+
+            const lt=()=>{
+                window.location.href="https://www.google.com/"
+            }
+            l.addEventListener("click",lt);
+        </script>
+    </fieldset>
+</body>
+</html>
